@@ -25,21 +25,22 @@ burrowCheck는 elk에 비해 가볍게 사용하기 위해 만들게 되었습�
 > OS : CentOS 7
 
 1) GO 설치
-'''
+```
 wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
-'''
+```
 
 2) GO 환경변수 적용
-'''
+```
 vi ~/.bashrc
+
 
 ## GO
 export PATH=/usr/local/go/bin:$PATH
 export GOPATH=/root/go
 
 source ~/.bashrc
-'''
+```
 
 3) burrow 소스 다운로드
 
